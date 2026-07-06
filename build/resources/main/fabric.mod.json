@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "safeparrots",
+	"version": "1.1.1",
+	"name": "Safe Parrots",
+	"icon": "assets/safeparrots/icon.png",
+	"description": "Prevents players from feeding cookies to parrots on the server.",
+	"authors": [],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/safeparrots"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"safeparrots.SafeParrotsMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
